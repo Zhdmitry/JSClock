@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    background-image: url(assets/img/background-relax.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Tahoma,Geneva,Kalimati,sans-serif;
+}
+.relax{
+    padding-top: 65px;
+    display: flex;
+    color: white;
+    font-size: 38px;
+}
+
+.again1{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    transition: 1s;
+}
+.again{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 0);
+    transition: 1s;
+}
+.taimer{
+    display: flex;
+    color: #1a3059;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 1s;
+}
+.taimer1{
+    display: flex;
+    font-weight: bold;
+    color: rgb(250, 9, 9);
+    font-size: 30px;
+    transition: 1s;
+}
+.just-relax{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    width: 493px;
+    height: 30px;
+    padding: 60px 30px;
+    background-image: url(assets/png/like-background.png);
+    background-repeat: no-repeat;
+}
+.congratulate{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 500px;
+    border: solid 2px;
+    border-color: royalblue;
+    background: rgba(238, 227, 227, 0.623);
+}
+.congratulate-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: Tahoma,Geneva,Kalimati,sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    height: 200px;
+    width: 500px;
+}
+
+.go-back{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    font-family: Tahoma,Geneva,Kalimati,sans-serif;
+    font-weight: bold;
+    color: black;
+    top: 5%;
+    right: 5%;
+    border: solid 2px;
+    border-color: black;
+    padding: 5px;
+    background-color: rgba(238, 227, 227, 0.623);
+}
